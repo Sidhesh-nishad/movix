@@ -64,7 +64,7 @@ function HeroBanner() {
               type="text"
               placeholder="Search for movie or tv show..."
             />
-            <button>search</button>
+            <button onClick={() => navigate(`/search/${query}`)}>search</button>
           </div>
         </div>
       </div>
