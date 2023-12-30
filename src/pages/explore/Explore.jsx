@@ -9,7 +9,7 @@ import datafetching from "../../hooks/datafetching";
 import { useQuery } from "@tanstack/react-query";
 
 import { fetchDataFromApi } from "../../utils/api";
-import ContentWrapper from "@components/contentwrapper/ContentWrapper";
+import ContentWrapper from "@/components/contentwrapper/ContentWrapper";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 
