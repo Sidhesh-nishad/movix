@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 
 import datafetching from "../../../hooks/datafetching";
 import useStore from "../../../store/store";
-import Img from "../../../components/lazyLoadImage/img";
+import Img from "@/components/lazyLoadImage/Img";
 
 //baseurl +size + filePath-
 
